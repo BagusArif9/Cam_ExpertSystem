@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     .then((response) => response.json())
     .then((data) => {
       cameraData = data;
-      console.log("Camera data loaded:", cameraData); // Debug statement
+      console.log("Camera data loaded:", cameraData);
     })
     .catch((error) => console.error("Error fetching the camera data:", error));
 
@@ -14,21 +14,21 @@ document.addEventListener("DOMContentLoaded", (event) => {
     .then((response) => response.json())
     .then((data) => {
       rules = data.rules;
-      console.log("Rules data loaded:", rules); // Debug statement
+      console.log("Rules data loaded:", rules);
     })
     .catch((error) => console.error("Error fetching the rules data:", error));
 });
 
 function filterCameras() {
   const input = document.getElementById("userInput").value.toLowerCase().trim();
-  console.log("User input:", input); // Debug statement
+  console.log("User input:", input);
   const resultsDiv = document.getElementById("results");
   resultsDiv.innerHTML = "";
 
-  // Tokenize the input
+  // Tokenize the input and filter out non-relevant words
   const inputKeywords = input.split(" ").filter((keyword) => keyword !== "");
 
-  // Extract relevant values from camera data and rules to use for matching
+  // Extract relevant values from camera data and rules
   const relevantValues = new Set();
   cameraData.forEach((camera) => {
     Object.values(camera).forEach((value) => relevantValues.add(value.toString().toLowerCase()));
