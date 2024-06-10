@@ -17,9 +17,60 @@
         "Sony A7R II",
         "Sony A7R III",
         "Sony A7R IV",
+        "Sony A7S II",
+        "Sony A7S III",
         "Sony A9",
         "Sony A9 II",
         "Sony A9 III"
+      ]
+    },
+    {
+      "condition": {
+        "Category": "Photography",
+        "Body Type": "Mirrorless",
+        "Sensor Type": "Full Frame",
+        "LCD Type": "tilting screen"
+      },
+      "cameras": [
+        "Sony A7",
+        "Sony A7 II",
+        "Sony A7R"
+      ]
+    },
+    {
+      "condition": {
+        "Category": "Photography",
+        "Body Type": "Mirrorless",
+        "Sensor Type": "APS-C",
+        "LCD Type": "touch screen"
+      },
+      "cameras": [
+        "Sony A6500",
+        "Sony A6600",
+        "Sony A6700"
+      ]
+    },
+    {
+      "condition": {
+        "Category": "Photography",
+        "Body Type": "Mirrorless",
+        "Sensor Type": "APS-C",
+        "LCD Type": "tilting screen"
+      },
+      "cameras": [
+        "Sony A3000",
+        "Sony A3500",
+        "Sony A6100",
+        "Sony A6300",
+        "Sony A6400",
+        "Sony NEX-5",
+        "Sony NEX-5N",
+        "Sony NEX-5R",
+        "Sony NEX-5T",
+        "Sony NEX-6",
+        "Sony NEX-7",
+        "Sony NEX-C3",
+        "Sony NEX-F3"
       ]
     },
     {
@@ -53,44 +104,60 @@
     },
     {
       "condition": {
-        "Category": "Videography",
-        "Body Type": "Mirrorless",
+        "Category": "Photography",
+        "Body Type": "DSLR",
+        "Sensor Type": "Full Frame",
+        "LCD Type": "tilting screen"
+      },
+      "cameras": [
+        "Sony A99",
+        "Sony Alpha"
+      ]
+    },
+    {
+      "condition": {
+        "Category": "Photography",
+        "Body Type": "DSLR",
         "Sensor Type": "Full Frame",
         "LCD Type": "touch screen"
       },
       "cameras": [
-        "Sony FX3",
-        "Sony ZV-E1"
+        "Sony A99 II"
       ]
     },
     {
       "condition": {
         "Category": "Photography",
         "Body Type": "Compact",
-        "Sensor Type": "1-inch",
-        "LCD Type": "touch screen"
-      },
-      "cameras": [
-        "Sony RX100 VII",
-        "Sony ZV-1",
-        "Sony ZV-1 II"
-      ]
-    },
-    {
-      "condition": {
-        "Category": "Photography",
-        "Body Type": "Compact",
-        "Sensor Type": "1-inch",
+        "Sensor Type": "Full Frame",
         "LCD Type": "tilting screen"
       },
       "cameras": [
-        "Sony RX100 II",
-        "Sony RX100 III",
-        "Sony RX100 IV",
-        "Sony RX100 V",
-        "Sony RX100 VA",
-        "Sony RX100 VI",
-        "Sony ZV-1F"
+        "Sony RX1",
+        "Sony RX1R"
+      ]
+    },
+    {
+      "condition": {
+        "Category": "Photography",
+        "Body Type": "Compact",
+        "Sensor Type": "Full Frame",
+        "LCD Type": "touch screen"
+      },
+      "cameras": [
+        "Sony RX1R II"
+      ]
+    },
+    {
+      "condition": {
+        "Category": "Photography",
+        "Body Type": "Compact",
+        "Sensor Type": "1/2.3-inch",
+        "LCD Type": "tilting screen"
+      },
+      "cameras": [
+        "Sony HX90V",
+        "Sony HX99"
       ]
     },
     {
@@ -119,6 +186,17 @@
     },
     {
       "condition": {
+        "Category": "Photography",
+        "Body Type": "Bridge",
+        "Sensor Type": "1-inch",
+        "LCD Type": "touch screen"
+      },
+      "cameras": [
+        "Sony RX10 IV"
+      ]
+    },
+    {
+      "condition": {
         "Category": "Photography and Videography",
         "Body Type": "Compact",
         "Sensor Type": "1-inch",
@@ -131,6 +209,30 @@
         "Sony RX100 V",
         "Sony RX100 VA",
         "Sony RX100 VI"
+      ]
+    },
+    {
+      "condition": {
+        "Category": "Photography and Videography",
+        "Body Type": "Compact",
+        "Sensor Type": "1-inch",
+        "LCD Type": "touch screen"
+      },
+      "cameras": [
+        "Sony RX100 VII"
+      ]
+    },
+    {
+      "condition": {
+        "Category": "Photography and Videography",
+        "Body Type": "Bridge",
+        "Sensor Type": "1-inch",
+        "LCD Type": "tilting screen"
+      },
+      "cameras": [
+        "Sony RX10",
+        "Sony RX10 II",
+        "Sony RX10 III"
       ]
     },
     {
@@ -174,6 +276,30 @@
     {
       "condition": {
         "Category": "Videography",
+        "Body Type": "Mirrorless",
+        "Sensor Type": "Full Frame",
+        "LCD Type": "touch screen"
+      },
+      "cameras": [
+        "Sony FX3",
+        "Sony ZV-E1"
+      ]
+    },
+    {
+      "condition": {
+        "Category": "Videography",
+        "Body Type": "Mirrorless",
+        "Sensor Type": "APS-C",
+        "LCD Type": "touch screen"
+      },
+      "cameras": [
+        "Sony FX30",
+        "Sony ZV-E10"
+      ]
+    },
+    {
+      "condition": {
+        "Category": "Videography",
         "Body Type": "Compact",
         "Sensor Type": "1-inch",
         "LCD Type": "touch screen"
@@ -192,18 +318,6 @@
       },
       "cameras": [
         "Sony ZV-1F"
-      ]
-    },
-    {
-      "condition": {
-        "Category": "Videography",
-        "Body Type": "Mirrorless",
-        "Sensor Type": "APS-C",
-        "LCD Type": "touch screen"
-      },
-      "cameras": [
-        "Sony FX30",
-        "Sony ZV-E10"
       ]
     }
   ]
